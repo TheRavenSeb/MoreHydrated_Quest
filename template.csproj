@@ -3,13 +3,13 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
-		<RootNamespace>MyModName_Quest</RootNamespace>
+		<RootNamespace>MoreHydrated</RootNamespace>
 		<LangVersion>latest</LangVersion>
 		<IsPackable>false</IsPackable>
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
 		<FileVersion>1.0.0.0</FileVersion>
 		<NeutralLanguage>en-US</NeutralLanguage>
-		<AssemblyName>MyModName_Quest</AssemblyName>
+		<AssemblyName>MoreHydrated</AssemblyName>
 	</PropertyGroup>
 
 	<PropertyGroup>
@@ -107,5 +107,12 @@
 	  <Reference Include="UnityEngine.CoreModule">
 	    <HintPath>.\questdlls\UnityEngine.CoreModule.dll</HintPath>
 	  </Reference>
+	  <Reference Include=".\questdlls\CookingLib_Quest.dll" private="false"/>
+	    
+	  
+
+	  <Reference Include=".\questdlls\HydrateOrDiedrate.dll" private="false"/>
+	    
+	  
 	</ItemGroup>
 </Project>
